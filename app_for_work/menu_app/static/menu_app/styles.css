@@ -1,0 +1,25 @@
+ul.menu {
+    list-style: none;
+    padding: 0;
+}
+
+ul.menu li {
+    padding-left: 10px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+}
+
+ul.menu li.active > a {
+    font-weight: bold;
+    color: red;
+}
+
+ul.menu li.expanded > a {
+    font-weight: bold;
+}
+
+ul.menu li ul {
+    margin-left: 15px;
+}
