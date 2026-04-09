@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Услуги</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'menu_app/styles.css' %}">
+</head>
+<body>
+    <h1>Услуги</h1>
+
+    {% load menu_tags %}
+    {% draw_menu 'main_menu' %}
+
+    <p>Мы предлагаем различные услуги.</p>
+</body>
+</html>

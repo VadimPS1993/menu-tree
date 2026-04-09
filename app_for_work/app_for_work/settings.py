@@ -1,3 +1,4 @@
+
 """
 Django settings for app_for_work project.
 
@@ -78,12 +79,8 @@ WSGI_APPLICATION = "app_for_work.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "app_db",
-        "USER": "postgres",
-        "PASSWORD": "1234",
-        "HOST": "localhost",
-        "PORT": 5433,
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
